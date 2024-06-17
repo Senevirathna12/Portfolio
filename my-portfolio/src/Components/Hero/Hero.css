@@ -1,0 +1,86 @@
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero-profileimg {
+  margin-top: 120px;
+  border-radius: 50%;
+  height: 200px; /* Adjust height as needed */
+  width: 200px; /* Adjust width as needed */
+  object-fit: cover; /* Ensures the image covers the entire area */
+  object-position: center; /* Centers the image within the container */
+  border: 4px solid #000000; /* Optional: Adds a white border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+/* Optional: Hover effect */
+.hero-profileimg:hover {
+  transform: scale(1.05); /* Increases size on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.hero h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 70px;
+  font-weight: 500;
+}
+
+.hero h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  
+  .hero-connect {
+    padding: 15px 35px; /* Adjust padding as needed */
+    border-radius: 50px;
+    background: linear-gradient(264deg, #df8908, #b415ff);
+    color: #fff; /* Text color */
+    cursor: pointer;
+    text-align: center; /* Centers text within the button */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Optional: Makes text bold */
+    transition: background 0.3s, border 0.3s; /* Include border in transition */
+  }
+  
+  .hero-resume {
+    padding: 13px 33px; /* Adjust padding to accommodate border */
+    border-radius: 50px;
+    border: 2px solid #fff; /* Border style */
+    cursor: pointer;
+    text-align: center; /* Centers text within the button */
+    font-size: 18px; /* Adjust font size as needed */
+    color: #fff; /* Text color */
+    transition: border-color 0.3s; /* Only transition border color */
+  }
+  
+  .hero-connect:hover {
+    background: linear-gradient(264deg, #b415ff, #df8908);
+    border: 2px solid white; /* Ensure border style matches default */
+  }
+  
+  .hero-resume:hover {
+    border-color: #b415ff; /* Change border color on hover */
+  }
+  

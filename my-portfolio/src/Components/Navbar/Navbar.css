@@ -1,0 +1,50 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 20px;
+}
+
+
+
+.nav-connect {
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 22px;
+    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 22px;
+    transition: 0.5s;
+  }
+  
+
+.nav-connect:hover {
+  transform: scale(1.05);
+}
+
+
+.nav-logo {
+    font-size: 28px; /* Adjust font size as needed */
+    font-weight: bold; /* Makes the text bold */
+    color: #e9dfdf; /* Change to your desired color */ 
+    letter-spacing: 2px; /* Optional: adds space between letters */
+    font-family: 'Arial', sans-serif; /* Change to your preferred font */
+  }
+  
+  /* Optional: Adding a hover effect to the logo */
+  .nav-logo:hover {
+    color: #b923e1; /* Change to your desired hover color */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
