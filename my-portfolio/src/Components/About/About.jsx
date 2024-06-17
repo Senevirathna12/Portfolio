@@ -2,7 +2,7 @@
 import React from 'react'
 import './About.css';
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/myCrop.png'
+import profile_img from '../../assets/my.png'
 
 const About = () => {
   return (
